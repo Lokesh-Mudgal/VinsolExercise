@@ -1,9 +1,8 @@
-package com.lokeshmudgal06.vinsolproject;
+package com.lokeshmudgal06.vinsolproject.fragment;
 
 import android.content.res.Configuration;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.os.Parcelable;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -14,9 +13,14 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.WindowManager;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.lokeshmudgal06.vinsolproject.model.MeetingModel;
+import com.lokeshmudgal06.vinsolproject.R;
+import com.lokeshmudgal06.vinsolproject.adapter.MeetingListAdapter;
+import com.lokeshmudgal06.vinsolproject.repository.ApiClient;
+import com.lokeshmudgal06.vinsolproject.repository.ApiInterface;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

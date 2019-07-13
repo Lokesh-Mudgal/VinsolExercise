@@ -1,4 +1,4 @@
-package com.lokeshmudgal06.vinsolproject;
+package com.lokeshmudgal06.vinsolproject.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;

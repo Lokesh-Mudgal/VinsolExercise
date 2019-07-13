@@ -1,4 +1,6 @@
-package com.lokeshmudgal06.vinsolproject;
+package com.lokeshmudgal06.vinsolproject.repository;
+
+import com.lokeshmudgal06.vinsolproject.model.MeetingModel;
 
 import java.util.List;
 

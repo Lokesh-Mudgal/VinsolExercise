@@ -1,4 +1,4 @@
-package com.lokeshmudgal06.vinsolproject;
+package com.lokeshmudgal06.vinsolproject.repository;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

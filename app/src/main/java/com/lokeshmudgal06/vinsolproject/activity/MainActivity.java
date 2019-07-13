@@ -1,8 +1,11 @@
-package com.lokeshmudgal06.vinsolproject;
+package com.lokeshmudgal06.vinsolproject.activity;
 
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.lokeshmudgal06.vinsolproject.fragment.MeetingListFragment;
+import com.lokeshmudgal06.vinsolproject.R;
 
 public class MainActivity extends AppCompatActivity {
 
